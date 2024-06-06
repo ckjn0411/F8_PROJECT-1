@@ -18,9 +18,10 @@ body {
 a {
   text-decoration: none;
 }
+
 .content {
-  width: 1100px;
-  max-width: calc(100%-48px);
+  width: 1110px;
+  max-width: calc(100% - 48px);
   margin-left: auto;
   margin-right: auto;
 }
@@ -28,12 +29,12 @@ a {
 .btn {
   display: inline-block;
   min-width: 98px;
-  padding: 8px 16px;
+  padding: 18px 16px;
   background: var(--primary-color);
   font-size: 1.4rem;
   font-weight: 500;
   text-align: center;
-  border-radius: 8px;
+  border-radius: 12px;
   color: #ffffff;
 }
 
@@ -42,6 +43,7 @@ a {
 }
 /* Header */
 .header {
+  position: relative;
   background: #e6f0ff;
   height: 100vh;
   /* width: 100vw; */
@@ -50,11 +52,12 @@ a {
 .navbar {
   display: flex;
   align-items: center;
-  padding-top: 50px;
+  padding: 38px 0;
 }
 
 .navbar ul {
   display: flex;
+  margin-left: 50px;
 }
 
 .navbar .actions {
@@ -77,14 +80,59 @@ ul {
 }
 
 .navbar .action-link {
-  font-size: 14px;
   font-weight: 500;
-  line-height: 21px;
-  text-align: left;
+  font-size: 1.4rem;
   color: var(--primary-color);
 }
 
 .navbar .action-btn {
   padding: 13px 16px;
   margin-left: 18px;
+}
+
+.hero {
+  margin-top: 130px;
+}
+
+.hero .info {
+  width: 51%;
+}
+
+.hero .sub-title {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: #687690;
+}
+
+.hero .title {
+  margin-top: 8px;
+  font-size: 6.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 76px; /* 118.75% */
+  color: #000336;
+}
+
+.hero .desc {
+  margin-top: 30px;
+  color: #5a6473;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.78;
+  text-transform: lowercase;
+}
+
+.hero-cta {
+  width: 170px;
+  height: 50px;
+  flex-shrink: 0;
+  margin-top: 40px;
+}
+.hero-img {
+  position: absolute;
+  right: calc((100vw - 1110px) / 2 - 100px);
+  bottom: 0;
 }
