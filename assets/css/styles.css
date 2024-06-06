@@ -14,7 +14,8 @@ body {
   font-size: 1.5rem;
   font-family: "Poppins", sans-serif;
 }
-/* Common */
+/*------------------ Common ---------------*/
+
 a {
   text-decoration: none;
 }
@@ -41,7 +42,7 @@ a {
 .btn:hover {
   opacity: 0.9;
 }
-/* Header */
+/*------------------ Header ---------------*/
 .header {
   position: relative;
   background: #e6f0ff;
@@ -135,4 +136,33 @@ ul {
   position: absolute;
   right: calc((100vw - 1110px) / 2 - 100px);
   bottom: 0;
+}
+
+/*------------------ Clients ---------------*/
+.clients {
+  margin-top: 122px;
+}
+
+.clients .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients .desc {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25; /* 125% */
+  color: #7d8589;
+}
+
+.clients .row-desc {
+  margin-top: 23px;
+}
+
+.clients .images {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 96px;
 }
