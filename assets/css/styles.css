@@ -506,7 +506,57 @@ ul {
 }
 
 .stats .qty-desc {
+  margin-top: 24px;
   color: #7b8087;
   font-size: 1.8rem;
   font-weight: 500;
+}
+
+.subscription {
+  margin-top: 90px;
+}
+
+.subscription .body {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 390px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #063183;
+}
+
+.subscription .info {
+  width: 671px;
+  max-width: 100%;
+  padding: 0 80px;
+}
+
+.subscription .sub-title {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1.5; /* 100% */
+}
+
+.subscription .desc {
+  margin-top: 15px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.88; /* 187.5% */
+  opacity: 0.75;
+}
+
+.subscription .btn {
+  margin-top: 20px;
+  max-width: 151px;
+  background-color: #fff;
+  color: #002366;
+}
+
+.subscription .image {
+  position: absolute;
+  bottom: 0;
+  right: 221px;
 }
